@@ -1,0 +1,211 @@
+/* Medium Layout: 1280px. */
+@media only screen and (min-width: 1200px) and (max-width: 1600px) { 
+#right-text {
+  top: 10%;
+}
+#left-text {
+  bottom: 5%;
+}
+}
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1100px;
+  }
+}
+
+/* Medium Layout: 1280px. */
+@media only screen and (min-width: 992px) and (max-width: 1200px) { 
+#right-text {
+  top: 10%;
+}
+#left-text {
+  bottom: 5%;
+}
+}
+/* Tablet Layout: 768px. */
+@media only screen and (min-width: 768px) and (max-width: 991px) { 
+#right-text {
+  top: 10%;
+}
+#left-text {
+  bottom: 5%;
+}
+
+.working-area img, .affiliate-area img {
+  width: 100%;
+}
+#services .service-block {
+  width: 100%;
+}
+.service-block h3 {
+  font-size: 12px;
+}
+.service-block h6 {
+  font-size: 12px;
+}
+.h2, h2 {
+  font-size: 26px;
+}
+.affiliate-area h5 {
+  font-size: 14px;
+}
+.table-area .table-dark td, .table-dark th, .table-dark thead th {
+  font-size: 12px;
+}
+}  
+
+/* Wide Mobile Layout: 480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) { 
+.hero-center-wrap h2 {
+  font-size: 16px;
+}
+.hero-center-wrap p {
+  font-size: 11px;
+}
+.top-home h3 {
+  font-size: 16px;
+}
+.h2, h2 {
+  font-size: 22px;
+}
+.lead {
+  font-size: 15px;
+  line-height: 18px;
+}
+.working-area img, .affiliate-area img {
+  width: 100%;
+}
+#services .service-block {
+  height: auto;
+  width: 100%;
+}
+.row.service-wrapper {
+  padding: 0;
+}
+.wrapper-line-right {
+  border-right: none;
+  padding-right: 0;
+  text-align: center;
+}
+.title-token {
+  font-size: 20px;
+}
+.wapper-area .item {
+  float: none;
+  width: 100%;
+}
+.wapper-area .item::before {
+  border: none;
+}
+.company-logos img {
+  width: auto;
+}
+.company-logos {
+  text-align: center;
+}
+footer h2 {
+  font-size: 18px;
+}
+.box-c {
+  padding: 5px;
+}
+footer .nav-link {
+  font-size: 12px;
+}
+.nav-item, .nav-item:last-child {
+  margin: 5px;
+}
+.affiliate-area h5 {
+  font-size: 14px;
+}
+.table-area .table-dark td, .table-dark th, .table-dark thead th {
+  font-size: 12px;
+}
+#right-text {
+  top: 10%;
+}
+#left-text {
+  bottom: 5%;
+}
+#left-text .text-left > span {
+  margin-left: 0!important;
+}
+}
+/* Mobile Layout: 320px. */
+@media only screen and (max-width: 479px) { 
+#right-text {
+  top: 10%;
+}
+#left-text {
+  bottom: 5%;
+}
+    #left-text .text-left > span {
+  margin-left: 0!important;
+}
+
+.hero-center-wrap h2 {
+  font-size: 16px;
+}
+.hero-center-wrap p {
+  font-size: 11px;
+}
+.top-home h3 {
+  font-size: 16px;
+}
+.h2, h2 {
+  font-size: 22px;
+}
+.lead {
+  font-size: 15px;
+  line-height: 18px;
+}
+.working-area img, .affiliate-area img {
+  width: 100%;
+}
+#services .service-block {
+  height: auto;
+  width: 100%;
+}
+.row.service-wrapper {
+  padding: 0;
+}
+.wrapper-line-right {
+  border-right: none;
+  padding-right: 0;
+  text-align: center;
+}
+.title-token {
+  font-size: 20px;
+}
+.wapper-area .item {
+  float: none;
+  width: 100%;
+}
+.wapper-area .item::before {
+  border: none;
+}
+.company-logos img {
+  width: auto;
+}
+.company-logos {
+  text-align: center;
+}
+footer h2 {
+  font-size: 18px;
+}
+.box-c {
+  padding: 5px;
+}
+footer .nav-link {
+  font-size: 12px;
+}
+.nav-item, .nav-item:last-child {
+  margin: 5px;
+}
+.affiliate-area h5 {
+  font-size: 14px;
+}
+.table-area .table-dark td, .table-dark th, .table-dark thead th {
+  font-size: 12px;
+}
+} 

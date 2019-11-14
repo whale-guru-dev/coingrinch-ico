@@ -1,0 +1,224 @@
+#about .mb-3:after {
+    width: 12%;
+    background: #fff;
+    margin-left: 0;
+    transform: translate(-50%, 0);
+    top: auto;
+    bottom: -10px;
+}
+h1 {
+    font-family: 'Racing Sans One', cursive;
+}
+#banner .jumbotron h1 {
+    color: #0ca8db;
+}
+.sub-title {
+    font-weight: 400;
+    font-size: 20px;
+}
+video#bg {
+    width: 100%;
+    height: auto;
+}
+.video-area {
+    position: absolute;
+    width: 100%;
+    height: auto;
+    background: rgba(0, 0, 0, 0.5);
+    top: 0;
+    left: 0;
+}
+.inner-sec {
+    height: 600px;
+    position: relative;
+    overflow: hidden;
+    padding: 60px 0;
+}
+.bg-animation-sec p {
+    color: #fff;
+    margin-top: 30px;
+    font-size: 26px;
+}
+.inner-box {
+    margin-top: 55px;
+}
+.box-effet {
+  font-size: 60px;
+  font-weight: 700;
+  letter-spacing: 10px;
+  position: relative;
+  font-style: italic;
+}
+
+.box-effet::before, .box-effet::after {
+  background: transparent none repeat scroll 0 0;
+  border-style: solid;
+  border-width: 30px;
+  content: "";
+  position: absolute;
+  transform: skewX(-202deg);
+  width: 53%;
+  z-index: -1;
+}
+.box-effet::before {
+  border-color: transparent #fff transparent transparent;
+  right: -15px;
+  top: -30px;
+}
+.box-effet::after {
+  border-color: transparent #fff transparent transparent;
+  bottom: -21px;
+  left: -15px;
+  transform: rotate(202deg);
+}
+.box-effet {
+  font-size: 65px;
+  font-style: italic;
+  font-weight: 700;
+  letter-spacing: 10px;
+  position: relative;
+  text-align: center;
+  text-shadow: 0 -2px 2px #333333;
+  width: 100px;
+  z-index: 3;    color: #0ca8db;
+
+}
+.box-skew-bg::before {
+  background: #fff none repeat scroll 0 0;
+  content: "";
+  height: 95px;
+  left: -3px;
+  position: absolute;
+  top: 0;
+  transform: skewX(-20deg);
+  width: 100%;
+}
+.box-skew-bg {
+    position: relative;
+}
+.box-skew-bg span {
+  font-size: 18px;
+  position: relative;
+  font-style: italic;
+  font-weight: 600;
+}
+#banner h4 {
+    margin-bottom: 40px;
+}
+
+.lead a.btn.btn-lg:hover {
+    background: #0ca8db;
+    transform: scale(0.95);
+}
+.ico-count {
+    text-align: center;
+}
+.right-side-img > img {
+  position: absolute;
+  top: 50%;
+  transform: translate(50%, -50%);
+}
+.token-a {
+    background: #0ca8db;
+    color: #fff;
+    border-radius: 0;
+    border: 1px solid #0ca8db;
+}
+.paper-a {
+    border-radius: 0;
+    color: #fff;
+    border: 1px solid #ffffff;
+}
+.member .p-3 {
+  background: rgba(255, 255, 255, 0.8) none repeat scroll 0 0;
+  padding: 1rem !important;
+  position: relative;
+  top: 0;
+  z-index: 1;
+  transition: all 250ms linear 0s;
+}
+#team .member {
+  transition: all 250ms linear 0s;
+    
+}
+#team .member::after {
+  background: rgba(12, 168, 219, 0.5) none repeat scroll 0 0;
+  content: "";
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: -305px;
+  width: 100%;
+  transition: all 250ms linear 0s;
+}
+#team .member:hover::after {
+  top: 0;
+}
+.member:hover .p-3{
+   top: -188px; 
+}
+.reading-box::after, .reading-box::before {
+  bottom: 15px;
+  box-shadow: 0 17px 10px rgba(0, 0, 0, 0.7);
+  content: "";
+  height: 20%;
+  left: 10px;
+  max-height: 100px;
+  max-width: 460px;
+  opacity: 0.7;
+  position: absolute;
+  transform: rotate(-3deg);
+  width: 60%;
+  z-index: -1;
+}
+.reading-area .reading-box::before, .reading-area .reading-box::after {
+  opacity: 0.3;
+}
+.reading-box::after {
+  left: auto;
+  right: 10px;
+  transform: rotate(3deg);
+}
+.reading-box {
+  position: relative;
+}
+.reading-box {
+  background-color: #f6f6f6;
+  border-left: 3px solid #0f6fc6;
+  padding: 27px 28px 27px 31px;
+}
+.reading-area {
+  margin-bottom: 60px;
+}
+nav.bg-nav {
+    background: #ffffff;
+    transition: 250ms all ease-in-out;
+}
+#about {
+    background: linear-gradient(to bottom, rgba(162,208,223,1) 0%,rgba(125,185,232,1) 100%);
+    padding: 50px 0;overflow: hidden;  
+    background-position: center;
+}
+.what-right {
+    margin-top: 50px;
+}
+.box-c p {
+    color: #000;
+}
+.box-c a {
+    color: #000000;
+}
+.box-c {
+    background: #fff;
+    display: inline-block;
+    padding: 10px 60px;
+    box-shadow: 0px 0px 10px 1px #777;
+    margin-bottom: 15px;
+}
+#about .aos-init h2.mb-3 {
+    color: #fff;
+}
+#about .aos-init p {
+    color: #fff;
+}
+

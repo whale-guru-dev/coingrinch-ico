@@ -1,0 +1,144 @@
+/* Medium Layout: 1280px. */
+
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+ #banner .jumbotron .lead {
+  font-size: 16px;
+}
+#banner .jumbotron h1 {
+  font-size: 40px;
+}
+.right-side-img > img {
+  top: 0;
+  transform: none;
+}
+#about p {
+  font-size: 14px;
+}
+.content-box.p-4 p {
+  font-size: 14px;
+}
+}
+
+
+/* Tablet Layout: 768px. */
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+.right-side-img {
+  text-align: center;
+}
+.right-side-img > img {
+  position: relative;
+  top: -45px;
+  transform: none;
+  width: 135px;
+}
+.aos-init .col-lg-6.text-left {
+  margin-top: 10px;
+}
+#banner {
+  padding-top: 0;
+}
+nav {
+    background: #fff;
+}
+}
+
+
+/* Wide Mobile Layout: 480px. */
+
+@media only screen and (min-width: 411px) and (max-width: 767px) {
+ #banner .jumbotron h1 {
+  font-size: 20px;
+}
+#banner .jumbotron .lead {
+  font-size: 12px;
+}
+.time_circles > div > span {
+  margin-top: 0px;
+}
+.right-side-img {
+  text-align: center;
+  position: relative;
+}
+.right-side-img > img {
+  height: auto;
+  position: relative;
+  top: 0;
+  transform: none;
+  width: auto;
+}
+.ico-count .rates {
+  font-size: 14px;
+}
+#banner h4 {
+  margin-bottom: 10px;
+}
+#banner {
+  height: auto;
+}
+#about h2.mb-3 {
+  font-size: 24px;
+}
+.sub-title {
+  font-size: 14px;
+}
+#team .member {
+  margin: 0 auto;
+}
+    nav {
+        background: #fff;
+    }
+}
+
+
+/* Mobile Layout: 320px. */
+
+@media only screen and (max-width: 410px) {
+ #banner .jumbotron h1 {
+  font-size: 20px;
+}
+nav {
+    background: #fff;
+}
+#team .member {
+  margin: 0 auto;
+}
+.sub-title {
+  font-size: 14px;
+}
+#banner .jumbotron .lead {
+  font-size: 12px;
+}
+.time_circles > div > span {
+  margin-top: 0px;
+}
+.right-side-img {
+  text-align: center;
+  position: relative;
+}
+.right-side-img > img {
+  height: auto;
+  position: relative;
+  top: 0;
+  transform: none;
+  width: auto;
+}
+.ico-count .rates {
+  font-size: 14px;
+}
+#banner h4 {
+  margin-bottom: 10px;
+}
+#banner {
+  height: auto;
+}
+.lead .btn.btn-lg.paper-a {
+  margin-top: 15px;
+}
+#about h2.mb-3 {
+  font-size: 24px;
+}
+.box-c {
+  padding: 0;
+}
+}
